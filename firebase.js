@@ -1,13 +1,14 @@
 import firebase from 'firebase'
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBa6qPjH1NYxhqtfncN05BOME5QWGSxRs8",
-    authDomain: "discord-clone-akky.firebaseapp.com",
-    projectId: "discord-clone-akky",
-    storageBucket: "discord-clone-akky.appspot.com",
-    messagingSenderId: "426856372384",
-    appId: "1:426856372384:web:2df9b164ff7e8c744211c5",
-    measurementId: "G-611WYQNKK2"
+    apiKey: "AIzaSyBacwMog1hwTDP_aS8qreZHX8cf4MZMITQ",
+    authDomain: "skill-dev-cloud.firebaseapp.com",
+    databaseURL: "https://skill-dev-cloud-default-rtdb.firebaseio.com",
+    projectId: "skill-dev-cloud",
+    storageBucket: "skill-dev-cloud.appspot.com",
+    messagingSenderId: "42828431492",
+    appId: "1:42828431492:web:54815d4350dc4e9ccb82d1",
+    measurementId: "G-03G205DHJW"
   };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
